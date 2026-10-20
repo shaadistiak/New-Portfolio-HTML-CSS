@@ -24,6 +24,16 @@ body{
 header{
 
   background-color: #FFF8F3;
+  margin-top: 50px;
+  
+  background: url("../images/developer.png") ,url("../images/header_bg.png");
+
+background-repeat: no-repeat;
+background-position:top left ,right bottom;
+
+margin-left: 40px;
+
+
 }
 
 
@@ -39,8 +49,10 @@ align-items: center;
 }
 .logo {
 
-font-size: larger;
-font-weight: bold;
+font-size: 45px;
+font-weight: 700;
+margin-left: -80px;
+cursor: pointer;
 
 }
 
@@ -54,7 +66,7 @@ font-weight: bold;
 
 .list-container a{
 text-decoration: none;
-font-size: 15px;
+font-size: 25px;
 color: black;
 font-weight: normal;
 
@@ -73,7 +85,66 @@ color: azure;
 background-color: #FD6E0A;
 border: none;
 border-radius: 10px;
-font-size: 15px;
+font-size: 20px;
 font-weight: bold;
+cursor: pointer;
 
 }
+
+
+
+.banner{
+
+display: flex;
+
+margin-left: 286px;
+margin-right: 38px;
+
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+.banner-text{
+
+max-width: 585px;
+margin-left: -90px;
+
+}
+
+.banner-text h2{
+
+font-size: 45px;
+font-weight: 600;
+color: #474747;
+margin-bottom: 5px;
+
+}
+
+.banner-text h1{
+font-size: 85px;
+font-weight: bold;
+color: #181818;
+margin-bottom: 20px;
+
+}
+
+.banner-text p{
+
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  line-height: 30px;
+ 
+}
+
+
+.banner-img{
+
+max-width: 584px;
+vertical-align: middle;
+
+}
+
